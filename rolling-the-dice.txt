@@ -1,0 +1,10 @@
+
+-----> THE MOST IMPORTANT FUNCTIONALITY IS ROLLING THE DICE: 
+
+----- We want to react to clicking to that roll button 
+
+- SO WE WANT TO SELECT THAT BUTTON ELEMENT AND ADD AN EVENT LISTENER OR AN EVENT HANDLER 
+- Are event listener and event handler the same things? 
+
+- quandos sei que vou usar os elementos do html ou do css? 
+

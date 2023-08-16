@@ -1,2 +1,16 @@
 
-------- > THE PIG GAME 
+------- > THE PIG GAME:
+
+flowchart - It's a representation of everything that can happen in the application - diagrams.net
+
+this time we're going to selec the number based on the id instead of the class name 
+
+//--------- SELECTING ELEMENTS::
+const score0El = document.querySelector('#score--0'); // # IS THE SELECTOR FOR THE ID - WHEN WE ARE SELECTING USING AN ID THEN THERE'S ACTUALLY ANOTHER WAY OF SELECTING AN ELEMENT
+// ANOTHER WAY OF SELECTING ELEMENTS THAT ONLY WORKS BY ID:
+
+const score1El = document.getElementById('score--1'); // NOW WE'RE NOT WRITING A SELECTOR, WE'RE ONLY PASSING IN THE NAME OF THE ID THAT WE'RE LOOKING FOR
+const diceEl = document.querySelector('.dice');
+// THE GETELEMENTBYID IS SUPPOSEND TO BE A LITTLE BIT FASTER THAN QUERYSELECTOR
+// score0El and score1El are DOM elements
+
