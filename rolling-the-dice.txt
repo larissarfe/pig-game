@@ -8,3 +8,13 @@
 
 - quandos sei que vou usar os elementos do html ou do css? 
 
+btnRoll.addEventListener('click', function () {
+  // 1. Generating a random dice roll
+  const dice = Math.trunc(Math.random() * 6) + 1; // this should not be a global variable because each time we roll the dice, we want to generate a new number
+  console.log(dice); // --- trunc remove the decimal part
+
+  // 2. Display the dice
+  diceEl.classList.remove('hidden');
+  diceEl.src = `dice-${dice}.png`; // the string will be the name of the image displayed
+  // this way we can dynamically load one of these six images depending on the random rolled dice;
+  //------
