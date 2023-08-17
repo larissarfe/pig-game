@@ -1,0 +1,20 @@
+
+const scores = [0, 0]; // THE SCORES WILL BE AN ARRAY POSITION 0 FOR THE PLAYER 1 POSITION 1 FOR PLAYER 2
+let currentScore = 0;
+let activePlayer = 0;
+
+ // 3. Check for rolled one
+  if (dice !== 1) {
+    // if it's not one - add dice to current score
+    currentScore += dice;
+    document.getElementById(`current--${activePlayer}`).textContent =
+      currentScore; // HERE THE ID NAME IS SER DINAMICALLY
+    //current0El.textContent = currentScore; // CHANGE LATER FOR THE CURRENT PLAYER
+  } else {
+    // SWITCHING THE NEXT PLAYER MEANS TO CHANGE THAT VALUE
+    activePlayer = activePlayer === 0 ? 1 : 0; // WE ARE REASSIGNING THE ACTIVE PLAYER HERE AND WE'RE CHEACKING WHEATHER RIGHT NOW IT IS PLAYER 0, IF IT IS THE RESULT OF THIS WHOLE OPERATION WILL BE 1 IF NOT, SO, IF THE ACTIVE PLAYER IS PLAYER 1 IT GOES TO PLAYER 0
+  } // switch to next player
+});
+
+// KNOWING WHICH IS THE ACTIVE PLAYER IS GOING TO BE IMPORTANT TO ACTUALLY DISPLAY THE CURRENT SCORE FOR THE CURRENT PLAYER
+
