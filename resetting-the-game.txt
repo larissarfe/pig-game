@@ -1,0 +1,5 @@
+
+- What we want is when we click the button NEW GAME:
+
+1. REMOVE THE WINNER CLASS 
+2. SET ALL THE SCORES TO ZERO
