@@ -1,0 +1,11 @@
+
+-- When the button hold is clicked it means that we want to add the current score to the total score 
+
+---> WE WANT SOMETHING TO HAPPEN WHEN THE USER CLICKS ON THE HOLD BUTTON 
+
+we are using an array to hold the scores in the scores variable - THE ARRAY HOLDS THE SOCRE AT THE SAME TIME OF PLAYER 0 AND PLAYER 1 
+diceEl.classList.add('hidden');
+const scores = [0, 0]; // THE SCORES WILL BE AN ARRAY POSITION 0 FOR THE PLAYER 1 POSITION 1 FOR PLAYER 2
+let currentScore = 0;
+let activePlayer = 0;
+let playing = true;
